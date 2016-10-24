@@ -1,0 +1,83 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: burlywood
+}
+#header {
+  position: absolute;
+  margin: 0;
+  top:0;
+  left:0;
+  width:100vw;
+  height:15vh;
+  background-color:darkgoldenrod;
+}
+#forum{
+ position: absolute;
+ top:6vh;
+left:42vw;
+  font-family: Century Gothic;
+  font-style: italic;
+  font-weight:bold;
+  color:azure;
+  font-size: 1.2em;
+  
+  
+}
+
+#form {
+ position: absolute;
+  top:20vh;
+  left:5vw;
+  display: block;
+  color:blueviolet;
+}
+#form span{
+  color:darkblue;
+  font-weight: 400;
+  
+}
+#form #telephone{
+  margin:2vh;
+  border-radius:8px;
+  background-color: aquamarine;
+  height: 4vh;
+  font-weight:bold;
+  font-family: Century Gothic;
+}
+ #form #text{
+   width: 50vw;
+   border-radius: 8px;
+   border: 2px inset orange;
+   background-color: aquamarine;
+   font-weight:bold;
+   font-family: Century Gothic;
+ }
+#submit {
+ background-color:cadetblue;
+  width:12vw;
+  height:5vh;
+  color:crimson;
+  font-weight: bold;
+  font-size:2vw;
+ display: block;
+  margin-top:3vh;
+}
+  
+#show_username{
+	position:absolute;
+	right:2vh;
+	top:2vh;
+	color:red;
+	font-size:1.3em;
+}
+#show_username a {
+	text-decoration:underline;
+	 -webkit-transition:-webkit-transform 1s,font-size 1s,font-weight 1s,color 1s;
+	
+	
+}
+#show_username a:hover{
+	font-size:1.6em;
+	color:black;
+	font-weight:bold;
+}

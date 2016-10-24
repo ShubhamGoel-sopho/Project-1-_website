@@ -1,0 +1,185 @@
+body {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	overflow:auto;
+	background-color:#ffffb3;
+	z-index:0;
+}
+
+a {
+	text-decoration:none;
+}
+
+
+
+/*===============================my work for the transitioning===================================*/
+#main {
+	position:absolute;
+	width:100vw;
+	font-family:Century Gothic;
+	
+	
+}
+
+
+
+#navbarhead {
+	position:absolute;
+	width:18vw;
+	height:99vh;
+	background-color:cornflowerblue;
+	top:-2vh;
+	left:0vw;
+	font-size:1.5em;
+	color:orange;
+	z-index:2;
+	display:none;
+}
+ 
+
+#navbarhead ul{
+	list-style:none;
+	display:block;
+	height:70%;
+	width:100%;
+	
+}
+#navbarhead ul li{
+	margin-bottom:2vh;
+	color:orange;
+	padding:2vh;
+	width:12vw;
+	-webkit-transition:-webkit-transform 1s,background 1s,color 1s,width 1s,border 1s;
+}
+#navbarhead ul li:hover{
+	
+	border:1px inset violet;
+	border-radius:5px;
+	background-color:pink;
+	font-weight:bold;
+	
+	
+}
+#navbarhead ul li:hover:after{
+	content:">>";
+	color:black;
+	
+	
+	
+}
+#navbarhead ul li a {
+	color:orange;
+	font-weight:bold;
+}
+#navbarhead ul li a:hover {
+	color:black;
+}
+
+#main img{
+	position:absolute;
+	top:0.5vh;
+	left:0.5vw;
+	height:5vh;
+	width:2vw;
+	z-index:2;
+   -webkit-transition:-webkit-transform 1s,background 1s,border-radius 1s;
+}
+
+#main img:hover {
+	z-index:2;
+	color:white;
+	background:pink;
+	border-radius:2px;
+}
+
+
+
+
+
+/*===============================================================================================*/
+/*================================NOW THE MAIN WORK STARTS=====================================*/
+#show_username{
+	position:absolute;
+	right:2vw;
+	top:2vh;
+	color:red;
+	font-size:1.3em;
+}
+#show_username a {
+	text-decoration:underline;
+	 -webkit-transition:-webkit-transform 1s,font-size 1s,font-weight 1s,color 1s;
+	
+	
+}
+#show_username a:hover{
+	font-size:1.6em;
+	color:black;
+	font-weight:bold;
+}
+
+
+#progress_welcome{
+  
+  position:absolute;
+  top:4vh;
+  left:8vw;
+  display: inline;
+  color:#ff0080;
+  font-weight:bold;
+ 
+
+}
+#progressbar{
+ position: absolute;
+  top:14vh;
+  left:1vw;
+  width:98vw;
+  
+  
+}
+#progressshow{
+  position: absolute;
+  top:20vh;
+  left:4vw;
+  width:4vw;
+  color:#ff0080;
+}
+
+#articlesection {
+  position: absolute;
+  top:25vh;
+  left:4vw;
+  width:92vw;
+  font-size:1.5em;
+  
+}
+#button1 {
+	
+	position:absolute;
+	left:4vw;
+	top:90vh;
+	
+	
+}
+#feedback{
+	
+	position:absolute;
+	left:15vw;
+	top:90vh;
+	display:inline;
+	color:green;
+	font-weight:bold;
+	text-decoration:underline;
+	
+}
+#button2 {
+	position:absolute;
+	right:4vw;
+	top:90vh;
+}
+
+
+

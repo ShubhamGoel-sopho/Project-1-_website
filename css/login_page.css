@@ -1,0 +1,87 @@
+body {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	background-color: #66ffb3;
+	
+}
+
+#formforlogin{
+	position:absolute;
+	width:60vw;
+	top:30vh;
+	left:20vw;
+	background-color:#ffcc66;
+	border:4px solid violet;
+    border-radius:30px 15px;
+    font-size:2em;	
+	box-sizing:border-box;
+}
+#formforlogin #userdata {
+    display:table;	
+    font-family: 'Open Sans', sans-serif;
+	
+}
+.f {
+	display:table-row;
+	margin-left:5px;
+}
+
+ 
+.f label{
+	display:table-cell;
+	padding:4px;
+	text-align:right;
+	
+}
+.f input{
+	display:table-cell;
+	padding:3px;
+	border-radius:6px;
+	background-color:#ffcc99;
+	height:4vh;
+	width:30vw;
+	font-family: 'Open Sans';
+	font-size:1em;
+	margin-bottom:2%;
+}
+#legend {
+	display:flex;
+	width:90%;
+    color:#993399;	
+}
+
+#Buttonsubmit {
+
+	margin-top: 10px;
+	width: 130px;
+	margin-left: 10px;
+
+	padding: 5px;
+	background-color: #66ff66;
+	height: 50px;
+	border-radius: 5px;
+	font-weight: normal;
+	-webkit-transition:-webkit-transform 1s,background-color 1s,border-color 1s ;
+	font-size: 1.4em;
+	color:black;
+	border:2px solid green;
+	font-weight: bold;
+    margin-bottom:3px;
+}
+#Buttonsubmit:hover
+{
+	background-color: #00ccff;
+    border:2px solid blue;
+}
+
+#Feedback {
+	height:15%;
+	width:17%;
+	position:absolute;
+	right:0;
+	top:60%;
+	/*border:1px solid black;*/
+}
